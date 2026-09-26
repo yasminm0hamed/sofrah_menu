@@ -412,7 +412,7 @@ section>h1{
     color: var(--main-color);
 }
 
-/* =========================
+/* ========================
    Order Section - Landscape
    Large Screens
 ========================= */
@@ -493,7 +493,7 @@ section>h1{
         transform: translateX(0);
     }
 }
- @keyframes vibrate {
+@keyframes vibrate {
     0% {
         transform: translateY(-5px);
     }
