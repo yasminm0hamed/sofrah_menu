@@ -9,21 +9,28 @@
 }
 body{
     position: relative;   
+    overflow-x: hidden;
     width: 100%;
     min-height: 100vh;
     background-color: #f2eacc;
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 
 .navbar{
+    
     position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
     z-index: 10000;
     background-color: #f2eacc;
-    top:0;
     box-shadow: 0 0 5px var(--main-color);
     height: 15vh;
 }
+
 .logo{
     width: 50px;
     border-radius: 50%;
@@ -521,12 +528,12 @@ section>h1{
     display: block;
     width: 230px;
     height:300px;
-    /* margin-bottom: -20px; */
+    margin-top: -50px;
 }
 main .about{
     font-weight: bolder;
     padding: 0 20px;
-    width: 450px;
+    width: 350px;
     font-size: 17px;
     
 }
@@ -560,7 +567,7 @@ main .footer{
         background-color: #01271d27;
     }
     .navbar-toggler{
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     .navbar-toggler:hover,
     .navbar-toggler:focus,
