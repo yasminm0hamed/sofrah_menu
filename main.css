@@ -9,7 +9,7 @@
 }
 body{
     position: relative;   
-    overflow-x: hidden;
+  
     width: 100%;
     min-height: 100vh;
     background-color: #f2eacc;
@@ -22,8 +22,7 @@ body{
     
     position: sticky;
     top: 0;
-    right: 0;
-    left: 0;
+    
     width: 100%;
     z-index: 10000;
     background-color: #f2eacc;
@@ -36,10 +35,12 @@ body{
     border-radius: 50%;
 }
 
-.navbar-collapse{
+
+.navbar-collapse {
     flex-grow: 0;
-    margin-left: 20px;
+   
 }
+
 .tnavbar-brand {
     margin-right: 20px;
 }
@@ -63,6 +64,7 @@ main{
     align-items: center;
     justify-content: center;
     gap:20px;
+    overflow: hidden;
     
 }
 .burger{
@@ -548,6 +550,7 @@ main .footer{
 
     .navbar-collapse {
         margin-left: 0;
+        top:10vh
     }
 
     .navbar-nav{
@@ -562,13 +565,14 @@ main .footer{
         transition: 0.3s;
         padding: 5px 20px;
     }
-
+    .navbar{
+        height: 10vh;
+        width: 100%;
+    }
     .navbar-collapse li:hover {
         background-color: #01271d27;
     }
-    .navbar-toggler{
-        /* margin-left: 20px; */
-    }
+    
     .navbar-toggler:hover,
     .navbar-toggler:focus,
     .navbar-toggler:active {
